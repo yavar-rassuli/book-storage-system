@@ -6,9 +6,9 @@ Add books and find them again by title, author, genre, publisher or year.
 ## Screenshots
 
 <img src="docs/homePage.png" width="400"> <img src="docs/search.png" width="400">
-<img src="docs/newBook.png" width="400"> <img src="docs/search.png" width="400">
-<img src="docs/kontact.png" width="400"> <img src="docs/search.png" width="400">
-<img src="docs/findBook.png" width="400"> <img src="docs/search.png" width="400">
+<img src="docs/newBook.png" width="400"> <img src="docs/kontact.png" width="400">
+
+
 
 ## Features
 
