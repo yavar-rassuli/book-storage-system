@@ -75,3 +75,27 @@
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
+/* Mobile menu: stays visible, no matter which box clips the header */
+#menu {
+  position: fixed;
+  top: 6rem;
+  margin-top: 0;
+  animation: menu-open 0.25s ease-out;
+}
+
+/* Fade in and slide down a little when the menu opens */
+@keyframes menu-open {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Let the mobile menu hang out of the header */
+.hero {
+  overflow: visible;
+}
