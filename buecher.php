@@ -118,18 +118,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <?php endforeach; ?>
         </select>
       </div>
-      <div class="form-group">
+      <div class="form-group ">
         <label for="sonstiges">Sonstiges</label>
         <textarea id="sonstiges" name="sonstiges" class="form-control" rows="6"></textarea>
       </div>
+      <div class="mb-8">
+            <input type="submit" value="Abschicken" class="p-3 px-5 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight">
+            <input type="reset" value="Zurücksetzen" class="p-3 px-5 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight">
+      </div>
 
-      <input type="submit" value="Abschicken" class="p-3 px-5 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight">
-      <input type="reset" value="Zurücksetzen" class="p-3 px-5 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight">
     </form>
 
-    <div class="mt-8">
-      <a class="p-3 px-6 pt-2 text-black bg-gray-200" href="buecher-temp.php">Bücher temporär speichern</a>
-    </div>
   </div>
 </section>
 
