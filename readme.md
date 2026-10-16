@@ -9,6 +9,7 @@ Add books and find them again by title, author, genre, publisher or year.
 <img src="docs/newBook.png" width="400"> <img src="docs/kontact.png" width="400">
 
 
+
 ## Features
 
 - Add books with title, original title, author, publisher, year, genre and notes
